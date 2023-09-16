@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta theme="#000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="https://cdn.jim-nielsen.com/ios/1024/weather-2019-02-07.png">
+    <meta name="theme-color" content="#1bb566">
+    <link rel="stylesheet" href="style.css">
+    <script src="eel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+</head>
+<body>
+    
+    <div class="summer" id="box1">
+        
+        <h3>Enter city 🏙️</h3>
+        <form action="#">
+            <input   type="text" id="city"  value="Almaty, Kz" placeholder="City and counrty">
+            
+        </form>
+    </div>
+    
+    <div class="fall" id="box">
+        <h4>Weather now ☁️</h4>
+        <div class="minibox">
+            <p id="fb" class="qz">Temperature</p>
+            <p id="fb1" class="qz">Status</p>
+            <p id="fb2" class="qz">Humidity</p>
+            <p id="fb3" class="qz">Wind speed</p>
+        </div>
+    </div>
+    <div class="summer" id="box4">
+        <h4>Weather by Time for Tomorrow ☁️</h4>
+        <div class="minibox">
+            <p class="qz time" id="time"><span>local time</span></p>
+            🌅<input type="range" name="range" id="range" step="1" class="range1" >🌇
+            <p id="fb8" class="qx"></p>
+            <p id="fb9" class="qx"></p>
+            <p id="fb10" class="qx"></p>
+            <p id="fb11" class="qx"></p>
+        </div>
+    </div>
+    <div class="winter" id="box2">
+        <h4>Weather tomorrow ☁️</h4>
+        <div class="minibox">
+            <p id="fb4" class="qz">Temperature</p>
+            <p id="fb5" class="qz">Status</p>
+            <p id="fb6" class="qz">Humidity</p>
+            <p id="fb7" class="qz">Wind speed</p>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+    
+    <script type="module" src="./script.js">
+        
+    </script>
+    <script>
+</script>
+</body>
+</html>
